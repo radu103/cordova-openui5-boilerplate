@@ -7,7 +7,7 @@ sap.ui.define([
 	return BaseController.extend("ro.dts.tm3.ui5.controller.App", {
 
 		oConfigModel : null,
-		aModules : [],
+		Modules : {},
 
 		onInit: function() {
 			console.log("Connection type : " + navigator.connection.type);
@@ -36,7 +36,11 @@ sap.ui.define([
 						"i18n" : null
 					};
 
-					this.aModules.push(newModule);
+					// TO DO : load custom routes to oRouter
+
+					// TO DO : load specific i18n resource bundles
+
+					this.Modules[modules.core[m]] = newModule;
 				}
 
 				// plugin modules add
