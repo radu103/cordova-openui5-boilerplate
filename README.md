@@ -36,3 +36,8 @@ or
 npm run browser
 npm run android
 ```
+
+## After cloning 
+
+* `npm install` in main folder
+* `cd www & npm install` in www folder

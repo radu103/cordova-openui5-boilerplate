@@ -1,0 +1,6 @@
+{
+    "modules" : {
+        "core" : ["clients"],
+        "plugins" : []
+    }
+}
