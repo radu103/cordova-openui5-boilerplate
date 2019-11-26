@@ -1,0 +1,6 @@
+/*!
+ * OpenUI5
+ * (c) Copyright 2009-2019 SAP SE or an SAP affiliate company.
+ * Licensed under the Apache License, Version 2.0 - see LICENSE.txt.
+ */
+sap.ui.define(["./library","sap/ui/core/Renderer","sap/ui/core/library"],function(e,r,t){"use strict";var a=e.RenderMode;var i=t.TextDirection;var s={};s.render=function(e,r){var t=r.getColorScheme(),n=r.getRenderMode(),d=r.getText(),l=r.getTextDirection(),o=r.getWidth(),w=r.getDisplayOnly();e.write("<div");e.writeControlData(r);e.addClass("sapTntInfoLabel");if(n===a.Narrow){e.addClass("sapTntInfoLabelRenderModeNarrow")}if(w){e.addClass("sapTntInfoLabelDisplayOnly")}if(d===""){e.addClass("sapTntInfoLabelNoText")}if(o){e.addStyle("width",o)}e.addClass("backgroundColor"+t);e.writeClasses();e.writeStyles();e.write(">");e.write("<span");e.addClass("sapTntInfoLabelInner");e.writeClasses();if(l!==i.Inherit){e.writeAttribute("dir",l.toLowerCase())}e.write(">");e.writeEscaped(d);e.write("</span>");if(s._sAriaText){e.write("<span class='sapUiPseudoInvisibleText'>");if(d===""){e.writeEscaped(s._sAriaTextEmpty)}else{e.writeEscaped(s._sAriaText)}e.write("</span>")}e.write("</div>")};return s},true);

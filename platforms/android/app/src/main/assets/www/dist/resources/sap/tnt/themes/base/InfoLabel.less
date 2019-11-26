@@ -1,0 +1,79 @@
+/* ================================= */
+/* CSS for control sap.tnt/InfoLabel */
+/* Base theme                        */
+/* ================================= */
+
+@_sap_tnt_InfoLabel_Margin: 0.9375rem;
+@_sap_tnt_InfoLabel_NoTextPadding: 0.5625rem;
+@_sap_tnt_InfoLabel_NoTextDisplayOnlyPadding: 0.5rem;
+@_sap_tnt_InfoLabel_LineHeight: 1.125rem;
+@_sap_tnt_InfoLabel_LineHeightDisplayOnly: 1rem;
+
+/* ==========================================================================
+   Root element
+   ========================================================================== */
+.sapTntInfoLabel {
+	box-sizing: border-box;
+	padding: 0 0.625rem;
+	text-align: center;
+	border-radius: 1.125rem;
+	height: 1.125rem;
+	display: inline-block;
+	max-width: 100%;
+
+	.sapTntInfoLabelInner {
+		font-size: @sapMFontSmallSize;
+		vertical-align: top;
+		line-height: @_sap_tnt_InfoLabel_LineHeight;
+		letter-spacing: 0.0125rem;
+		text-transform: uppercase;
+		display: inline-block;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		max-width: 100%;
+	}
+}
+
+.sapTntInfoLabelRenderModeNarrow{
+	padding: 0 0.3125rem;
+}
+
+/* ==========================================================================
+   InfoLabel Display Only
+   ========================================================================== */
+.sapTntInfoLabel.sapTntInfoLabelDisplayOnly {
+	height: 1rem;
+
+	.sapTntInfoLabelInner {
+		line-height: @_sap_tnt_InfoLabel_LineHeightDisplayOnly;
+	}
+}
+
+/* ==========================================================================
+   InfoLabel No Text
+   ========================================================================== */
+   .sapTntInfoLabel.sapTntInfoLabelNoText {
+	padding: 0 @_sap_tnt_InfoLabel_NoTextPadding;
+
+		&.sapTntInfoLabelDisplayOnly{
+			padding: 0 @_sap_tnt_InfoLabel_NoTextDisplayOnlyPadding;
+		}
+   }
+
+/* ==========================================================================
+   InfoLabel in Form
+   ========================================================================== */
+
+.sapUiFormM:not(.sapUiFormEdit) .sapUiFormResGridCont > div .sapTntInfoLabel {
+	font-size: 1rem;
+}
+
+.sapUiFormEdit .sapTntInfoLabel:not(.sapTntInfoLabelDisplayOnly) {
+	margin: @_sap_tnt_InfoLabel_Margin 0;
+}
+
+/* Compact size */
+.sapUiSizeCompact .sapUiFormEdit .sapTntInfoLabel:not(.sapTntInfoLabelDisplayOnly) {
+	margin: 0.4375rem 0;
+}

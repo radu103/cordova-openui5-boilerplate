@@ -1,0 +1,22 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve",
+    "lint": "eslint webapp",
+    "build": "ui5 build",
+    "rebuild": "ui5 build -a --clean-dest",
+    "build-self-contained": "ui5 build self-contained -a --clean-dest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openui5/sap.m": "^1.72.1",
+    "@openui5/sap.tnt": "^1.72.1",
+    "@openui5/sap.ui.core": "^1.72.1",
+    "@openui5/themelib_sap_belize": "^1.72.1"
+  }
+}

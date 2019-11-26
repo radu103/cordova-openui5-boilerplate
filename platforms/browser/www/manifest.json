@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "TM3",
+  "short_name": "TM3",
+  "version": "ro.dts.tm3.ui",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "index.html"
+}

@@ -1,0 +1,14 @@
+specVersion: '1.0'
+metadata:
+  name: tm3
+type: application
+resources:
+  configuration:
+    propertiesFileSourceEncoding: "UTF-8"
+builder:
+  cachebuster:
+    signatureType: hash
+server:
+  settings:
+    httpPort: 1337
+    httpsPort: 1443

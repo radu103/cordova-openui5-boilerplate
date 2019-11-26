@@ -1,0 +1,56 @@
+/* =================================== */
+/* CSS for control sap.tnt/ToolHeader  */
+/* Base theme                          */
+/* =================================== */
+
+@_sap_tnt_ToolHeader_ITHOverflowButtonTop: 0.5rem;
+@_sap_tnt_ToolHeader_Height: 3rem;
+
+.sapTntToolHeaderPopover.sapMOTAPopover.sapMPopover .sapMPopoverCont .sapMPopoverScroll,
+.sapTntToolHeaderPopover.sapMOTAPopover.sapMPopover .sapMPopoverCont .sapMPopoverScroll .sapMBtn {
+	padding: 0;
+}
+
+.sapTntToolHeader.sapMTB {
+	height: @_sap_tnt_ToolHeader_Height;
+}
+
+.sapTntToolHeader .sapMITH {
+	height: 3rem;
+	box-shadow: none;
+
+	.sapMITBHead {
+		margin: 0;
+		padding: 0 1px;
+
+		.sapMITBText  {
+			font-size: @sapMFontLargeSize;
+		}
+
+		.sapMITBFilter .sapMITBText + .sapMITBContentArrow  {
+			height: 0.75rem;
+		}
+	}
+
+	.sapMITBScrollContainer {
+		margin: 0 3.25rem 0 0.75rem;
+		padding-top: 0;
+	}
+
+	.sapMITBArrowScroll {
+		padding: 0;
+		visibility: hidden;
+	}
+
+	.sapMBtnInline {
+		top: 0;
+	}
+}
+
+.sapUiSizeCompact .sapTntToolHeader .sapMITH .sapMBtnInline {
+	top: @_sap_tnt_ToolHeader_ITHOverflowButtonTop;
+}
+
+.sap-phone .sapTntToolHeader .sapMITH .sapMITBHead .sapMITBFilter .sapMITBText + .sapMITBContentArrow  {
+	height: 0.825rem;
+}
