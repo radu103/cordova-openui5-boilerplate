@@ -9,6 +9,12 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "ro.dts.tm3.ui"
+    },
+    "cordova-plugin-exclude-files": {
+      "PACKAGE_NAME": "ro.dts.tm3.ui"
     }
   },
   "dependent_plugins": {}

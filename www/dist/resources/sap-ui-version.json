@@ -1,37 +1,37 @@
 {
 	"name": "tm3",
 	"version": "1.0.0",
-	"buildTimestamp": "201911261305",
+	"buildTimestamp": "201911261348",
 	"scmRevision": "",
 	"libraries": [
 		{
+			"name": "sap.ui.layout",
+			"version": "1.72.1",
+			"buildTimestamp": "201911261348",
+			"scmRevision": ""
+		},
+		{
 			"name": "sap.ui.core",
 			"version": "1.72.1",
-			"buildTimestamp": "201911261305",
+			"buildTimestamp": "201911261348",
 			"scmRevision": ""
 		},
 		{
 			"name": "sap.m",
 			"version": "1.72.1",
-			"buildTimestamp": "201911261305",
-			"scmRevision": ""
-		},
-		{
-			"name": "sap.ui.layout",
-			"version": "1.72.1",
-			"buildTimestamp": "201911261305",
+			"buildTimestamp": "201911261348",
 			"scmRevision": ""
 		},
 		{
 			"name": "sap.ui.unified",
 			"version": "1.72.1",
-			"buildTimestamp": "201911261305",
+			"buildTimestamp": "201911261348",
 			"scmRevision": ""
 		},
 		{
 			"name": "sap.tnt",
 			"version": "1.72.1",
-			"buildTimestamp": "201911261305",
+			"buildTimestamp": "201911261348",
 			"scmRevision": ""
 		}
 	]

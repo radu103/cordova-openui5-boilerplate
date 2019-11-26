@@ -11,6 +11,8 @@ sap.ui.define([
 		onInit: function() {
 			this.aSearchFilters = [];
 			this.aTabFilters = [];
+
+			alert(JSON.stringify(navigator.connection));
 		},
 
 		/**
