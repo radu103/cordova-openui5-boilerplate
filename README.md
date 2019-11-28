@@ -41,3 +41,7 @@ npm run android
 
 * `npm install` in main folder
 * `cd www & npm install` in www folder
+
+## Features
+
+Auto load of dynamic "core" & "plugin" block components defined in folder "modules"
