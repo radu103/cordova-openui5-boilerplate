@@ -1,1 +1,1 @@
-sap.ui.define(["sap/ui/core/UIComponent","sap/ui/core/ComponentSupport"],function(e){"use strict";return e.extend("sap.ui.demo.todo.Component",{metadata:{manifest:"json"}})});
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/core/ComponentSupport"],function(t){"use strict";return t.extend("ro.dts.tm3.ui5.Component",{metadata:{manifest:"json"},init:function(){t.prototype.init.apply(this,arguments);this.getRouter().initialize()}})});

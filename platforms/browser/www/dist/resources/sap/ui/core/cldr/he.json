@@ -4619,7 +4619,7 @@
 			"length-micrometer": {
 				"displayName": "µm",
 				"unitPattern-count-one": "{0} µm",
-				"unitPattern-count-two": "{0} ��m",
+				"unitPattern-count-two": "{0} µm",
 				"unitPattern-count-many": "{0} µm",
 				"unitPattern-count-other": "{0} µm"
 			},

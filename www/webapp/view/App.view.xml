@@ -4,11 +4,7 @@
 	xmlns:mvc="sap.ui.core.mvc" 
 	displayBlock="true">
 	<Shell>
-		<App>
-			<Page id="mainPage" title="{i18n>TITLE}">
-				<content>
-				</content>
-			</Page>
+		<App id="app">
 		</App>
 	</Shell>
 </mvc:View>

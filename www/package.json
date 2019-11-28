@@ -17,6 +17,8 @@
     "@openui5/sap.m": "^1.72.1",
     "@openui5/sap.tnt": "^1.72.1",
     "@openui5/sap.ui.core": "^1.72.1",
+    "@openui5/sap.ui.layout": "^1.72.1",
+    "@openui5/sap.ui.unified": "^1.72.1",
     "@openui5/themelib_sap_belize": "^1.72.1"
   }
 }

@@ -1,0 +1,8 @@
+<core:FragmentDefinition
+    controllerName="ro.dts.tm3.ui5.modules.clients.Launch"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+
+    <Button text="button" press=""/>
+
+</core:FragmentDefinition>

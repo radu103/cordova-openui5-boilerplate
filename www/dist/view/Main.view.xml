@@ -1,0 +1,33 @@
+<mvc:View 
+	controllerName="ro.dts.tm3.ui5.controller.Main"
+	xmlns:u="sap.ui.unified"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	displayBlock="true">
+	
+		<u:Shell 
+			id="headerShell"
+			icon="logo-30.png">
+			<u:user>
+				<u:ShellHeadUserItem
+					image="sap-icon://person-placeholder"
+					username="User Name"
+					press="onShellUserNamePress" />
+			</u:user>
+			<u:search>
+				<SearchField search="onShellSearch"/>
+			</u:search>
+		</u:Shell>
+
+		<Page id="mainPage" floatingFooter="true">
+			<content>
+			</content>
+			<footer>
+				<OverflowToolbar>
+					<ToolbarSpacer/>
+					<Button type="Accept" text="Console Messages"/>
+				</OverflowToolbar>
+			</footer>			
+		</Page>
+
+</mvc:View>

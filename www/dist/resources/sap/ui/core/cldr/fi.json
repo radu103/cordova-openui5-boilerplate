@@ -2315,7 +2315,7 @@
 				"yMEd": {
 					"d": "E d.M.y – E d.M.y G",
 					"M": "E d.M.y – E d.M.y G",
-					"y": "E d.M.y – E d.M.y G",
+					"y": "E d.M.y �� E d.M.y G",
 					"G": "E d.M.y G – E d.M.y G"
 				},
 				"yMMM": {

@@ -4154,7 +4154,7 @@
 			"area-square-centimeter": {
 				"displayName": "cm²",
 				"unitPattern-count-one": "{0} cm²",
-				"unitPattern-count-few": "{0} cm��",
+				"unitPattern-count-few": "{0} cm²",
 				"unitPattern-count-many": "{0} cm²",
 				"unitPattern-count-other": "{0} cm²",
 				"perUnitPattern": "{0}/cm²"

@@ -1,7 +1,7 @@
 {
 	"_version": "1.12.0",
 	"sap.app": {
-		"id": "sap.ui.demo.todo",
+		"id": "ro.dts.tm3.ui5",
 		"type": "application"
 	},
 	"sap.ui5": {
@@ -13,21 +13,25 @@
 			}
 		},
 		"rootView": {
-			"viewName": "sap.ui.demo.todo.view.App",
+			"viewName": "ro.dts.tm3.ui5.view.App",
 			"type": "XML",
 			"async": true,
-			"id": "app"
+			"id": "ro.dts.tm3.ui5"
 		},
 		"models": {
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "sap.ui.demo.todo.i18n.i18n"
+					"bundleName": "ro.dts.tm3.ui5.i18n.i18n"
 				}
 			},
-			"": {
+			"config": {
 				"type": "sap.ui.model.json.JSONModel",
-				"uri": "model/todoitems.json"
+				"uri": "config.json"
+			},
+			"modulesConfig": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "modulesConfig.json"
 			}
 		},
 		"resources": {
@@ -36,6 +40,30 @@
 					"uri": "css/styles.css"
 				}
 			]
-		}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "ro.dts.tm3.ui5.view",
+				"controlId": "app",
+				"controlAggregation": "pages",
+				"transition": "slide",
+				"async": true
+			},
+			"routes": [
+				{
+					"pattern": "",
+					"name": "home",
+					"target": "mainTarget"
+				}				
+			],
+			"targets": {
+				"mainTarget": {
+					"viewName": "Main",
+					"viewLevel" : 1
+				}
+			}
+		}		
 	}
 }

@@ -4291,7 +4291,7 @@
 			},
 			"duration-microsecond": {
 				"displayName": "μs",
-				"unitPattern-count-zero": "{0} ��s",
+				"unitPattern-count-zero": "{0} μs",
 				"unitPattern-count-one": "{0} μs",
 				"unitPattern-count-other": "{0} μs"
 			},

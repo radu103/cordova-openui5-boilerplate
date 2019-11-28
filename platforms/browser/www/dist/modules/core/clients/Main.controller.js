@@ -1,0 +1,1 @@
+sap.ui.define(["ro/dts/tm3/ui5/controller/BaseController"],function(n){"use strict";return n.extend("ro.dts.tm3.ui5.modules.core.clients.Main",{onInit:function(){console.log("clients Main controller onInit")}})});
