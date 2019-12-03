@@ -20,12 +20,16 @@
 		</u:Shell>
 
 		<Page id="mainPage" floatingFooter="true">
+			<headerContent>
+				<OverflowToolbar id="mainPageHeaderToolbar">
+				</OverflowToolbar>
+			</headerContent>
 			<content>
 			</content>
 			<footer>
-				<OverflowToolbar>
+				<OverflowToolbar id="mainPageFooterToolbar">
+					<Button type="About" text="Console Messages"/>
 					<ToolbarSpacer/>
-					<Button type="Accept" text="Console Messages"/>
 				</OverflowToolbar>
 			</footer>			
 		</Page>

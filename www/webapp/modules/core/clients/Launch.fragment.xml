@@ -3,6 +3,6 @@
     xmlns="sap.m"
     xmlns:core="sap.ui.core">
 
-    <Button text="button" press=""/>
+    <Button text="{clients_i18n>launchButtonText}" press=""/>
 
 </core:FragmentDefinition>

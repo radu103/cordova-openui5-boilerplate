@@ -1,3 +1,16 @@
-[
-    
-]
+{
+    "routes": [
+        {
+            "pattern": "clients/main",
+            "name": "clients_main",
+            "target": "mainClients"
+        }				
+    ],
+    "targets": {
+        "mainTarget": {
+            "viewPath": "ro.dts.tm3.ui5.modules.core.clients",
+            "viewName": "Main",
+            "viewLevel" : 1
+        }
+    }
+}

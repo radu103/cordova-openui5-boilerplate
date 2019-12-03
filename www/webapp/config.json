@@ -1,6 +1,11 @@
 {
     "modules" : {
-        "core" : ["clients"],
+        "core" : [
+            {
+                "name": "clients",
+                "controlId" : "mainPage" 
+            }
+        ],
         "plugins" : []
     }
 }
