@@ -1,0 +1,9 @@
+{
+    "core" : [
+        {
+            "name": "clients",
+            "controlId" : "mainPage" 
+        }
+    ],
+    "plugins" : []
+}

@@ -24,14 +24,6 @@
 				"settings": {
 					"bundleName": "ro.dts.tm3.ui5.i18n.i18n"
 				}
-			},
-			"config": {
-				"type": "sap.ui.model.json.JSONModel",
-				"uri": "config.json"
-			},
-			"modulesConfig": {
-				"type": "sap.ui.model.json.JSONModel",
-				"uri": "modulesConfig.json"
 			}
 		},
 		"resources": {
