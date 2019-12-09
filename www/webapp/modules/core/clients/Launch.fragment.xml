@@ -1,8 +1,7 @@
 <core:FragmentDefinition
-    controllerName="ro.dts.tm3.ui5.modules.clients.Launch"
     xmlns="sap.m"
     xmlns:core="sap.ui.core">
 
-    <Button text="{clients_i18n>launchButtonText}" press=""/>
+    <Button text="{clients_i18n>launchButtonText}" press="onLaunchPress"/>
 
 </core:FragmentDefinition>

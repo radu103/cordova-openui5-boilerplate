@@ -41,7 +41,10 @@
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"transition": "slide",
-				"async": true
+				"async": true,
+				"bypassed": {
+					"target": "notFound"
+				}
 			},
 			"routes": [
 				{
@@ -51,6 +54,9 @@
 				}				
 			],
 			"targets": {
+				"notFound": {
+					"viewName": "NotFound"
+				},
 				"mainTarget": {
 					"viewName": "Main",
 					"viewLevel" : 1

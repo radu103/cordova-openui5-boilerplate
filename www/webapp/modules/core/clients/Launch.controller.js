@@ -1,5 +1,3 @@
-import { promises } from "dns";
-
 sap.ui.define([
 	"ro/dts/tm3/ui5/controller/BaseController"
 ], function(BaseController) {
@@ -32,6 +30,10 @@ sap.ui.define([
 				// or reject if error
 				//reject(err);
 			});
+		},
+
+		onLaunchPress : function(){
+			this.getRouter().navTo("clientsMain");
 		}
 
 	});
